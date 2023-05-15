@@ -1,6 +1,6 @@
 # Dish form
 
-In order to set up the project clone the repo using  `git clone` or download source code from above. Then open Your command line and go to the project directory and type `yarn install` to download all dependencies.
+In order to set up the project clone the repo using  `git clone` or download source code from above. Then open Your command line and go to the project directory and type `yarn install` to download all dependencies. You should also add a .env file with api url and name it REACT_APP_API_URL.
 
 ## To launch the app
 
