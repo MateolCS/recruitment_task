@@ -19,5 +19,6 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-It took me around 2h to perform the task.
+### You can also check live preview [here](https://magenta-kringle-5a3fb0.netlify.app/)
 
+It took me around 2h to perform the task.
