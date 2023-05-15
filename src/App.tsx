@@ -18,10 +18,9 @@ const App = () => {
   };
 
   const submitFormHandler = async (data: Dish) => {
-    //console.log(data);
     try {
       const response = await axios.post(
-        "https://umzzcc503l.execute-api.us-west-2.amazonaws.com/dishes/",
+        process.env.REACT_APP_API_URL as string,
         data,
         {
           headers: {
@@ -30,8 +29,6 @@ const App = () => {
         }
       );
       console.log(JSON.stringify(response.data));
-      console.log(response.status);
-      console.log("shouldwork");
       setApiError("");
       setShowError(false);
       return true;
